@@ -1,5 +1,22 @@
 "Resource/HudLayout.res"
 {
+	"AnimatedxHair"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"AnimatedxHair"
+		"xpos"				"c-32"
+		"ypos"				"c-32"
+		"zpos"				"-1"
+		"wide"				"64" // Crosshair1 size
+		"tall"				"64" // Crosshair1 size
+		"visible"			"1" // Crosshair1 enabled
+		"enabled"			"1" // Crosshair1 enabled
+		"image"				"replay/thumbnails/T8521_ch1"
+		"scaleImage"		"1"
+		"drawcolor"			"white"
+		"Alpha"				"255" // Crosshair1 opacity
+	}
+	
 	DefaultHitmarker
 	{
 		"controlName"	"CExLabel"
@@ -23,7 +40,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"
 
