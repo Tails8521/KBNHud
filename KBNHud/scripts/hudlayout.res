@@ -23,17 +23,17 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"1"
 
 		"xpos"			"c-17"
 		"ypos"			"c-14"
-		"wide"			"35"
-		"tall"			"35"
+		"wide"			"28"
+		"tall"			"28"
 
 		"font"			"HudCrossHair"
-		"labelText"		"`"
+		"labelText"		"3"
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
