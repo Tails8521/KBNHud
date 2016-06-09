@@ -1,5 +1,37 @@
 "Resource/HudLayout.res"
 {
+	AnimatedxHair1
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"AnimatedxHair1"
+		"xpos"				"c-32"
+		"ypos"				"c-32"
+		"zpos"				"101"
+		"wide"				"64" // Crosshair1 size
+		"tall"				"64" // Crosshair1 size
+		"visible"			"1" // Crosshair1 enabled
+		"enabled"			"1" // Crosshair1 enabled
+		"image"				"replay/thumbnails/T8521_ch1"
+		"scaleImage"		"1"
+		"drawcolor"			"white"
+		"Alpha"				"255" // Crosshair1 opacity
+	}
+	AnimatedxHair2
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"AnimatedxHair2"
+		"xpos"				"c-48"
+		"ypos"				"c-48"
+		"zpos"				"102"
+		"wide"				"96" // Crosshair1 size
+		"tall"				"96" // Crosshair1 size
+		"visible"			"1" // Crosshair1 enabled
+		"enabled"			"1" // Crosshair1 enabled
+		"image"				"replay/thumbnails/T8521_ch2"
+		"scaleImage"		"1"
+		"drawcolor"			"white"
+		"Alpha"				"255" // Crosshair1 opacity
+	}
 	DefaultHitmarker
 	{
 		"controlName"	"CExLabel"
@@ -29,11 +61,11 @@
 
 		"xpos"			"c-17"
 		"ypos"			"c-14"
-		"wide"			"35"
-		"tall"			"35"
+		"wide"			"28"
+		"tall"			"28"
 
 		"font"			"HudCrossHair"
-		"labelText"		"`"
+		"labelText"		"3"
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
