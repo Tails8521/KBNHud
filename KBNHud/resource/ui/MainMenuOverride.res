@@ -442,7 +442,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"MavenProBold24"
-		"labelText"		"KBNHud v421A3"
+		"labelText"		"KBNHud v421A4"
 		"textAlignment"	"west"
 		"xpos"			"20"
 		"ypos"			"61"
@@ -1984,6 +1984,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
+			"actionsignallevel" "2"
 
 			"Command"		"noti_show"
 			"navActivate"	"<QuickplayButton"

@@ -1,7 +1,5 @@
 "Resource/HudLayout.res"
 {
-	"Resource/HudLayout.res"
-{
 	DefaultHitmarker
 	{
 		"controlName"	"CExLabel"
@@ -983,7 +981,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-100"
-		"ypos"					"50"
+		"ypos"					"200"
 		"wide"					"200"
 		"tall"					"300"
 	}
