@@ -512,7 +512,7 @@
 		"visible" "1"
 		"enabled" "1"
 
-		"BorderThickness" "1"
+		"BorderThickness" "0"
 
 		"PaintBackgroundType"	"2"
 	}
@@ -1282,8 +1282,8 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"15"
+		"xpos"					"c-142"
+		"ypos"					"-12"
 		"ypos_lodef"				"75"
 		"wide"					"125"
 		"tall"					"70"
