@@ -52,7 +52,6 @@ Scheme
 		"Low Ammo flash 2"  		"255 75 75 255"
 		
 		"Default Hitmarker base color" 	"0 0 0 255"
-		"Default Hitmarker flash color" "255 0 0 255"
 
 		//////////////////////////////////////////////////////////////////
 		///////////    END OF COLOR CUSTOMIZATION SECTION     ////////////
