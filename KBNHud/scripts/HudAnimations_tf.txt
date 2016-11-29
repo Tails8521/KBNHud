@@ -880,8 +880,8 @@ event NotificationsPresentBlinkStop
 event DamagedPlayer 
 {
 
-	StopEvent HitMarker 0.0
-	RunEvent HitMarker 0.01
+	// StopEvent HitMarker 0.0
+	// RunEvent HitMarker 0.01
 } 
 	
 event HitMarker 
