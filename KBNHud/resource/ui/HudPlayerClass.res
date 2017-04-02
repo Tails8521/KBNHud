@@ -5,13 +5,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerClass"
-		"xpos"			"-80"
+		"xpos"			"-75"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		"enabled"		"1"		
+		"enabled"		"1"
 	}
 	"PlayerStatusClassImage"
 	{
@@ -25,7 +25,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"PlayerStatusSpyImage"
 	{
@@ -39,10 +39,10 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/class_spyred"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/class_spyred"
-		"teambg_3"		"../hud/class_spyblue"			
-	}	
+		"teambg_3"		"../hud/class_spyblue"
+	}
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -55,21 +55,21 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"
-		"scaleImage"	"1"	
-	}		
+		"scaleImage"	"1"
+	}
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
 		"xpos"			"9999"		[$WIN32]
 		"ypos"			"r9999"	[$WIN32]
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"
-		"image"			"../hud/character_red_bg"	
+		"image"			"../hud/character_red_bg"
 		"teambg_2"		"../hud/character_red_bg"
 		"teambg_2_lodef"	"../hud/character_red_bg_lodef"
 		"teambg_3"		"../hud/character_blue_bg"
@@ -82,13 +82,13 @@
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"9999"		[$WIN32]
 		"ypos"			"r9999"	[$WIN32]
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"109"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"				"../hud/character_red_bg_clipped"	
+		"image"				"../hud/character_red_bg_clipped"
 		"teambg_2"			"../hud/character_red_bg_clipped"
 		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
 		"teambg_3"			"../hud/character_blue_bg_clipped"
@@ -99,21 +99,21 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
+
 		"xpos"			"250"	[$WIN32]
 		"ypos"			"r200"	[$WIN32]
-		"zpos"			"2"		
+		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"200"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
-				
+
 		"model"
 		{
 			"force_pos"	"1"
@@ -128,9 +128,9 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
+
 			"modelname"		""
-			
+
 			"animation"
 			{
 				"name"		"PRIMARY"
@@ -161,12 +161,12 @@
 			{
 				"name"		"ITEM1"
 				"activity"	"ACT_MP_STAND_ITEM1"
-			}						
+			}
 			"animation"
 			{
 				"name"		"ITEM2"
 				"activity"	"ACT_MP_STAND_ITEM2"
-			}									
+			}
 			"animation"
 			{
 				"name"		"MELEE_ALLCLASS"
@@ -321,16 +321,16 @@
 			"teambg_3"				"../hud/color_panel_blu"
 			"teambg_3_lodef"		"../hud/color_panel_blu"
 			"proportionaltoparent"	"1"
-		
+
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			
+
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 
 		"CarryingLabel"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabel"
 			"font"				"ReplayBrowserSmallest"
@@ -357,7 +357,7 @@
 		}
 
 		"CarryingLabelDropShadow"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabelDropShadow"
 			"font"				"ReplayBrowserSmallest"
@@ -385,7 +385,7 @@
 		}
 
 		"OwnerLabel"
-		{	
+		{
 			"ControlName"		"Label"
 			"fieldName"			"OwnerLabel"
 			"font"				"FontStoreOriginalPrice"

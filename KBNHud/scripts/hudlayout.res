@@ -54,7 +54,7 @@
 	HudxHair
 	{
 		"controlName"	"CExLabel"
-		"fieldName"	 	"HudCrossHair2"
+		"fieldName"	 	"HudCrossHair1"
 		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"
@@ -101,7 +101,7 @@
 		"tall"			"27"
 
 		"font"			"KnucklesCrosses"
-		"labelText"		"9"
+		"labelText"		"x"
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
@@ -113,8 +113,8 @@
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-13"
-		"ypos"			"c-13"
+		"xpos"			"c-14"
+		"ypos"			"c-11"
 		"wide"			"27"
 		"tall"			"27"
 
@@ -353,7 +353,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-126" //c-126
 		"ypos"		"275"
-		"wide"	 	"300" //252
+		"wide"	 	"300"
 		"tall"	 	"28"
 		"priority"	"40"
 	}
@@ -388,9 +388,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
-		"xpos"		"32"	[$X360]
-		"ypos"		"59"	[$X360]		
+		"ypos"		"0"	[$WIN32]	
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -399,14 +397,13 @@
 	
 	BuildingStatus_Engineer
 	{
-		"fieldName"				"BuildingStatus_Engineer"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"-18"
-		"zpos"					"10"
-		"ypos"					"110"		// spec fix
-		"wide"					"640"
-		"tall"					"480"
+		"fieldName" "BuildingStatus_Engineer"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"0"
+		"ypos"		"20"
+		"wide"		"640"
+		"tall"		"480"
 		
 		"PaintBackgroundType"	"2"
 	}
