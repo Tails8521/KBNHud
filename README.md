@@ -17,11 +17,10 @@ To do so, go to KBNHud/resource/fonts, and select all the files in there, right 
 __TO MAKE [CLOVERVIDIA'S](https://steamcommunity.com/sharedfiles/filedetails/?id=167785751) CAPTIONS WORK, YOU MUST ADD THE FOLLOWING TO YOUR autoexec.cfg (ALL OPERATING SYSTEMS):__
 
 ```				
-closecaption 1
-cc_subtitles 0
-cc_lang "clovervidiar"
-cc_predisplay_time 0
+exec captions
 ```
+
+Previously, you had to place four lines of code in autoexec.cfg to activate the captions, I moved these to captions.cfg in the HUD install in v434 to simplify things for the end user. The above command has the game run those commands as they are at startup, and echoes that they have been run in the console.
 
 
 __To install the HUD as a .vpk file (somewhat advanced):__
@@ -93,9 +92,11 @@ see should say "xHairCirclePulse".
 
 -Alignment and centering is not guaranteed to be perfect, and is likely to be quite flawed. Adjust the xpos and ypos values as needed to achieve the best centering for the chosen crosshair. The method is nearly identical to fixing the circle.
 
--__[Click here to see which character enables which crosshair](https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png)__
+-__[Click here to see which character enables which crosshair](https://i.imgur.com/Gk9wKD6.png)__
 
---You can also change the font line to read KnucklesCrosses for a different set of crosshairs that you can use. [Click here to see which character enables which crosshair](http://i.imgur.com/w0AcH2l.png)
+--You can also change the font line to read KnucklesCrosses for a different set of crosshairs that you can use. 
+
+-__[Click here to see which character enables which crosshair](http://i.imgur.com/w0AcH2l.png)__
 
 
 **Server Shortcut Buttons**
